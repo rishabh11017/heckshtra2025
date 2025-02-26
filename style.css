@@ -1,0 +1,36 @@
+.hello:hover{
+    transform: scale(1.02);
+
+}
+
+.star-rating {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ddd;
+  }
+.star-rating .active {
+    color: #f39c12;
+  }
+
+  .imagee{
+    height: 150px;
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+.doc{
+    margin-top: 10px;
+  }
+
+@keyframes appear {
+    from{
+        opacity:0;
+        scale: 0.4;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
